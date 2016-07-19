@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Deteksi Ekspresi Tugas Akhir Final</string>
+    <string name="JUDUL_TA">IMPLEMENTASI PENDEKATAN K-MEANS\nDALAM MENENTUKAN EKSPRESI WAJAH\nTERHADAP SUASANA HATI</string>
+    <string name="NAME">Ade Bambang Kurnia\n15-2012-050</string>
+    <string name="HAPPY">You are happy! Keep it up.</string>
+    <string name="SAD">Dont worry, it just a bad day</string>
+    <string name="NETRAL">Get up, dont just be a netral!</string>
+    <string name="DESC_INTRO1">Pick whatever song you have!\nWe weill show you all the music you have.\nPick one song and make sure it has deep emotion.</string>
+    <string name="DESC_INTRO2">Face your front camera,\nthe phone will take your photo automatically.</string>
+    <string name="DESC_INTRO3">Listen to the song,\nthen express your emotion and make sure\nyou are in frame of your front camera range.</string>
+    <string name="DESC_FINNISH">Lets get started!</string>
+</resources>

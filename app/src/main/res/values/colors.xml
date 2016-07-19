@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="warnaTema">#D3D3D3</color>
+    <color name="warnaFont">#3b3b3b</color>
+
+    <color name="allemoticon">#2c2b31</color>
+
+    <color name="happy">#41f05e</color>
+    <color name="sad">#f04141</color>
+    <color name="netral">#52cad8</color>
+</resources>

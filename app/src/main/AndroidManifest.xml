@@ -1,0 +1,49 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ta.debam.deteksiekspresitugasakhirfinal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        
+        <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="face"/>
+        
+        <activity android:name=".SplashAct"
+            android:theme="@style/AppThemeNoTit">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".HomeAct"
+            android:theme="@style/AppThemeNoTit">
+
+        </activity>
+
+        <activity android:name=".IntroAct"
+            android:theme="@style/AppThemeNoTit"/>
+
+        <activity android:name=".MainAct"
+            android:theme="@style/AppThemeNoTit">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".HistoryAct"
+            android:theme="@style/AppThemeNoTit"/>
+
+        </application>
+
+        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+        <uses-permission android:name="android.permission.INTERNET"/>
+        <uses-permission android:name="android.permission.CAMERA"/>
+
+</manifest>
